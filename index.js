@@ -25,43 +25,43 @@ mongoose
 
 //   Ticket Booking
 
-const ticketBookingRoutes = require("../../routes/ticketBooking")
+const ticketBookingRoutes = require("./routes/ticketBooking")
 app.use("/ticketbooking", ticketBookingRoutes)
 
 
 //    Contact Form 
 
-const contactRoutes = require("../../routes/contact")
+const contactRoutes = require("./routes/contact")
 app.use("/contact", contactRoutes)
 
 //     Red List
 
-const animalRoutes = require("../../routes/animals")
+const animalRoutes = require("./routes/animals")
 app.use("/animals", animalRoutes)
 
 //    Eco Journel
 
-const blogRoutes = require("../../routes/blog")
+const blogRoutes = require("./routes/blog")
 app.use("/blogs", blogRoutes)
 
 //     Volunteer Application
 
-const jobApplicationRoutes = require("../../routes/jobApplication")
+const jobApplicationRoutes = require("./routes/jobApplication")
 app.use("/job-apply", jobApplicationRoutes)
 
 //  Event Booking
 
-const eventRegistrationRoutes = require("../../routes/eventRegister")
+const eventRegistrationRoutes = require("./routes/eventRegister")
 app.use("/event-register", eventRegistrationRoutes)
 
 //   Donation 
 
-const donationRoutes = require("../../routes/donation")
+const donationRoutes = require("./routes/donation")
 app.use("/donate", donationRoutes)
 
 //  Email Subscription
 
-const subscriptionRoutes = require("../../routes/subscription")
+const subscriptionRoutes = require("./routes/subscription")
 app.use("/subscribe", subscriptionRoutes)
 
 // for Unknown Routes
