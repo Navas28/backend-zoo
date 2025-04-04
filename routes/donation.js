@@ -22,8 +22,8 @@ router.post("/", async (req, res) => {
                 },
             ],
             mode: "payment",
-            success_url: "https://frontend-zoo.vercel.app/success",
-            cancel_url: "https://frontend-zoo.vercel.app/cancel",
+            success_url: "https://frontend-zoo.vercel.app/",
+            cancel_url: "https://frontend-zoo.vercel.app/",
         });
 
         res.json({ url: session.url });
